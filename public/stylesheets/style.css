@@ -1,10 +1,58 @@
+/* line 1, ../../compass/sass/_base.scss */
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: gray;
   color: white;
 }
 
+/* line 8, ../../compass/sass/_base.scss */
 a {
   color: #00B7FF;
+}
+
+/* line 12, ../../compass/sass/_base.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 16, ../../compass/sass/_base.scss */
+.btn {
+  margin-top: 20px;
+  margin-right: 10px;
+  background-color: #917360;
+  float: right;
+}
+
+/* line 24, ../../compass/sass/_base.scss */
+.btn:hover {
+  background-color: #ccb195;
+}
+
+/* line 1, ../../compass/sass/_home.scss */
+.navigation-bar {
+  height: 80px;
+  background-color: #284741;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+/* line 8, ../../compass/sass/_home.scss */
+.navigation-bar .navigation-bar-left {
+  float: left;
+  width: 50%;
+}
+/* line 12, ../../compass/sass/_home.scss */
+.navigation-bar .navigation-bar-right {
+  float: left;
+  width: 50%;
+}
+
+/* line 19, ../../compass/sass/_home.scss */
+.navbar {
+  background-color: #284741;
+}
+
+/* line 23, ../../compass/sass/_home.scss */
+img.dcrosters {
+  width: 13%;
 }

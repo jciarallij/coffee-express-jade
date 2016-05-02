@@ -1,0 +1,26 @@
+body {
+  // padding: 50px;
+  // font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: gray;
+  color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img {
+	max-width: 100%;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-right: 10px;
+	background-color: #917360;
+	// border-color: black;
+	float: right;
+}
+
+.btn:hover{
+	background-color: #ccb195;
+}
