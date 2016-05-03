@@ -1,30 +1,78 @@
 /* line 1, ../../compass/sass/_base.scss */
 body {
-  background-color: gray;
+  background-color: #ccb195;
   color: white;
+  text-shadow: 0 0 0.1em black, 0 0 0.1em black;
 }
 
-/* line 8, ../../compass/sass/_base.scss */
+/* line 7, ../../compass/sass/_base.scss */
 a {
   color: #00B7FF;
 }
 
-/* line 12, ../../compass/sass/_base.scss */
+/* line 11, ../../compass/sass/_base.scss */
 img {
   max-width: 100%;
 }
 
-/* line 16, ../../compass/sass/_base.scss */
+/* line 15, ../../compass/sass/_base.scss */
 .btn {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-right: 10px;
   background-color: #917360;
   float: right;
+  border-color: #6f5c4b;
+  text-transform: uppercase;
 }
 
 /* line 24, ../../compass/sass/_base.scss */
+.login-btn {
+  background-color: #284741;
+  border-color: #284741;
+}
+
+/* line 30, ../../compass/sass/_base.scss */
 .btn:hover {
   background-color: #ccb195;
+}
+
+/* line 34, ../../compass/sass/_base.scss */
+.content {
+  margin-top: 6%;
+}
+
+/* line 38, ../../compass/sass/_base.scss */
+.navbar {
+  background-color: #284741;
+}
+
+/* line 42, ../../compass/sass/_base.scss */
+.footer {
+  background-color: #284741;
+  font-size: 20px;
+  color: #ccb195;
+}
+/* line 46, ../../compass/sass/_base.scss */
+.footer img {
+  width: 6%;
+  margin-top: 20px;
+}
+
+/* line 53, ../../compass/sass/_base.scss */
+.banner-title {
+  margin-top: 40px;
+}
+
+/* line 57, ../../compass/sass/_base.scss */
+.hr-line {
+  width: 300px;
+  border-color: #ccb195;
+}
+
+/* line 62, ../../compass/sass/_base.scss */
+img.dclogo {
+  width: 20%;
+  margin-top: 20px;
 }
 
 /* line 1, ../../compass/sass/_home.scss */
@@ -47,12 +95,137 @@ img {
   width: 50%;
 }
 
-/* line 19, ../../compass/sass/_home.scss */
-.navbar {
-  background-color: #284741;
+/* line 18, ../../compass/sass/_home.scss */
+.more-info {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 /* line 23, ../../compass/sass/_home.scss */
+.navbar {
+  background-color: #284741;
+  border-bottom: 2px solid black;
+}
+
+/* line 28, ../../compass/sass/_home.scss */
 img.dcrosters {
   width: 13%;
+  float: left;
+}
+
+/* line 33, ../../compass/sass/_home.scss */
+img.photo {
+  float: left;
+  margin-right: 50px;
+  margin-top: 60px;
+  width: 15%;
+  transform: rotate(-10deg);
+  margin: 60px 50px 0 10px;
+}
+
+/* line 42, ../../compass/sass/_home.scss */
+#intro {
+  background: url("../images/coffee.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* line 48, ../../compass/sass/_home.scss */
+#step-one {
+  background-image: url("../images/coffee-bags.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 55, ../../compass/sass/_home.scss */
+#step-two {
+  background-color: #ccb195;
+}
+
+/* line 59, ../../compass/sass/_home.scss */
+#step-three {
+  background-color: #284741;
+  background-image: url("../images/cup-beans.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 66, ../../compass/sass/_home.scss */
+#get-started {
+  background-color: #ccb195;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 71, ../../compass/sass/_home.scss */
+#get-started button {
+  background-color: #284741;
+  height: 60px;
+  width: 200px;
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+  border: 0px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-align: center;
+  margin-right: 45%;
+}
+
+/* line 87, ../../compass/sass/_home.scss */
+#my-story {
+  background-color: #ccb195;
+  width: 100%;
+  text-align: center;
+}
+/* line 91, ../../compass/sass/_home.scss */
+#my-story button {
+  background-color: #284741;
+  height: 60px;
+  width: 200px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 20px;
+  border: 0px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-right: 45%;
+}
+/* line 104, ../../compass/sass/_home.scss */
+#my-story h3 {
+  text-shadow: none;
+  color: black;
+}
+
+/* line 110, ../../compass/sass/_home.scss */
+.steps {
+  min-height: 300px;
+  position: relative;
+}
+
+/* line 117, ../../compass/sass/_home.scss */
+.arrow-one {
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 50px solid green;
+  position: absolute;
+  top: 0;
+}
+
+/* line 131, ../../compass/sass/_home.scss */
+#how-it-works {
+  font-size: 30px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ccb195;
+}
+/* line 136, ../../compass/sass/_home.scss */
+#how-it-works p {
+  text-shadow: none;
+  color: #284741;
 }

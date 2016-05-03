@@ -1,33 +1,26 @@
 extends layout
 
 block content
-	//- .navigation-bar
-	//- 	.navigation-bar-left
-	//- 		a(href='/')
-	//- 			img(src="images/dc_roasters_200x124_lt.png")
-	//- 	.navigation-bar-right
-	//- 		button.btn.btn-primary(type="submit") Log In
-	//- 		button.btn.btn-primary(type="submit") Register
-
 	nav.navbar.navbar-inverse.navbar-fixed-top
 		.container-fluid
 			.col-sm-6
 				a(href='/')
-				img.dcrosters(src="images/dc_roasters_200x124_lt.png")
+					img.dcrosters(src="images/logo-200x200-cup.png")
+					img.dclogo(src="images/logo-roast3.png")
+
 			.col-sm-6
-				button.btn.btn-primary(type="submit") Log In
-				button.btn.btn-primary(type="submit") Register
+				button.btn.btn-primary(type="submit") Sign Up
+				button.btn.btn-primary.login-btn(type="submit") Log in
 
 	.container-fluid
 		.row
-			.col-sm-12
-				h1 A better way to grind
+			#intro.col-sm-12.content.steps
+				h3 A better way to grind
 				h4 Freshly roasted coffee beans delivered weekly to your door.
 
 		.row
-			.col-sm-12.how-it-works
+			#how-it-works.col-sm-12.how-it-works.text-center
 				p How It Works
-
 			.col-sm-12.arrow-holder
 				.arrow-down
 
@@ -42,12 +35,13 @@ block content
 
 		.row
 			#step-two.col-sm-12.steps
+				img.photo(src="images/photo.jpg")
 				h3 2. We pick up the coffee
 				p We place the coffee in bags
 				p Each bag is transported in climate-controlled trucks
 				p Every six hours the bags are rotated to keep the beans uniform and delicious
 				.col-sm-12.arrow-holder
-					.arrow-down
+					.arrow-down.step-two-arrow
 		.row
 			#step-three.col-sm-12.steps
 				h3 3. You drink the coffee
@@ -57,8 +51,17 @@ block content
 					.arrow-down
 
 		.row
-			#get-started.col-sm-12
+			#get-started.col-sm-12.get-started-section
 				a(href="/register")
-					button.btn.btn-primary(type="button")
+					button.btn.btn-primary(type="button") Get Started
+				.col-sm-12.arrow-holder
+					.arrow-down
+		.row
+			#my-story.col-sm-12
+				h3.more-info Want to know more about us?
+				a(href="/story")
+					button.btn.btn-primary(type="button") About Us
+				.col-sm-12.arrow-holder
+					.arrow-down
 
 

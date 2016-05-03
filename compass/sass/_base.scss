@@ -1,8 +1,7 @@
 body {
-  // padding: 50px;
-  // font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: gray;
+  background-color: #ccb195;
   color: white;
+  text-shadow: 0 0 0.1em black, 0 0 0.1em black;
 }
 
 a {
@@ -14,13 +13,53 @@ img {
 }
 
 .btn {
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-right: 10px;
 	background-color: #917360;
-	// border-color: black;
 	float: right;
+	border-color: #6f5c4b;
+	text-transform: uppercase;
+}
+
+.login-btn{
+	background-color: #284741;
+	border-color: #284741;
+
 }
 
 .btn:hover{
 	background-color: #ccb195;
+}
+
+.content {
+	margin-top: 6%;
+}
+
+.navbar {
+	background-color: #284741;
+}
+
+.footer {
+	background-color: #284741;
+	font-size: 20px;
+	color: #ccb195;
+	img {
+		width: 6%;
+		margin-top: 20px;
+	}
+
+}
+
+.banner-title {
+	margin-top: 40px;
+}
+
+.hr-line {
+	width: 300px;
+	border-color: #ccb195;
+}
+
+img.dclogo {
+	width: 20%;
+	margin-top: 20px;
 }
